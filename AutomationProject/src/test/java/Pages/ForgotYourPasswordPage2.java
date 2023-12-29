@@ -11,14 +11,11 @@ public class ForgotYourPasswordPage2 {
 
 		this.driver = driver;
 	}
-
 	// 2nd way 
 
 	public By username_Textbox = By.xpath("//input[@name='username']");
 
 	public By resetPassword_Button = By.xpath("//button[@type='submit']");
 
-	public By cancel_Button = By.xpath("//button[@type='button']");
-
-	
+	public By cancel_Button = By.xpath("//button[@type='button']");	
 }
